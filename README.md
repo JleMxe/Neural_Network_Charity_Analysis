@@ -50,4 +50,4 @@ The purpose of this analysis was to generate a model to accurately assess where 
 ## Summary
 -   While an above 75% accuracy was achieved, it is not recommended to use that particular incarnation as dropping the NAME column could skew the model. If a name repaeats often, the applicant is likely a well established and reliable entity which isn't the case for all applicants.
 
--   A recommendation for an alternative methodology would be the use of a Random Forest Classifier as the excel at handling outliers as well as nonlinear data. The weak learner algorithms utilized in the Random Forest Classifier combine their output when making a final classification. This can be a very powerful methodology.
+-   A recommendation for an alternative methodology would be the use of a Random Forest Classifier as it excels at handling outliers as well as nonlinear data. The weak learner algorithms utilized in the Random Forest Classifier combine their output when making a final classification. This can be a very powerful methodology.
