@@ -6,19 +6,19 @@ The purpose of this analysis was to generate a model to accurately assess where 
 ### Data Preprocessing
 - Variables considered targets
 
-    -- Is_Successful column (indicates money was used successfully)
+    - Is_Successful column (indicates money was used successfully)
 
 - Variables considered features
 
-    -- Application_Type, Affiliation, Classification, Use_Case, Organization, Status, Income_Amt, Special_Considerations, Ask_Amt, Is_Successful
+    - Application_Type, Affiliation, Classification, Use_Case, Organization, Status, Income_Amt, Special_Considerations, Ask_Amt, Is_Successful
 
-    -- Name was also a feature for the 3rd Optimization attempt
+    - Name was also a feature for the 3rd Optimization attempt
 
 - What variables were removed
 
-    -- EIN and Name for the initial build and for optimization attempts 1 and 2
+    - EIN and Name for the initial build and for optimization attempts 1 and 2
 
-    -- EIN only for Optimization attempt 3
+    - EIN only for Optimization attempt 3
 
 ### Compiling, Training, and Evaluation the Model
 -  Neurons, Layers, and Activation Functions
